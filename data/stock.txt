@@ -1,0 +1,10 @@
+Tomates;60
+Fromage;35
+Pain;50
+Poulet;40
+Frites;25
+Laitue;30
+Oignons;45
+Poivrons;20
+Saumon;15
+Pâtes;40
