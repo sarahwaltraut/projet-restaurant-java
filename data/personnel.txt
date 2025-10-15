@@ -1,4 +1,4 @@
-E001;Sarah;Gérant
+E001;Sarah;Gerant
 E002;Orwell;Serveur
 E003;Lucas;Cuisinier
 E004;Mina;Serveur

@@ -1,14 +1,13 @@
 package factory;
 
 
-public class Plat extends Menu{
-
+class Plat extends AbstractMenu {
+	
     public Plat(String nom, double prix) {
-        super(nom, prix);
-    }
-
-    @Override
-    public void afficher() {
-        System.out.println("Plat principal : " + nom + " - " + prix + " €");
-    }
+    	super(nom, prix); 
+    	}
+    @Override 
+    public String getType() { 
+    	return "Plat"; 
+    	}
 }
