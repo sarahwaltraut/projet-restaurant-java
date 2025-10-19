@@ -3,7 +3,7 @@ package factory;
 import java.util.ArrayList;
 import java.util.List;
 
-class Menu {
+public class Menu {
     private List<MenuInterface> items;
 
     public Menu() {

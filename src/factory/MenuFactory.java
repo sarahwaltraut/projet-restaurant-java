@@ -1,6 +1,6 @@
 package factory;
 
-class MenuFactory {
+public class MenuFactory {
     /**
      * type peut être : "entree", "plat", "dessert", "boisson" (insensible à la casse)
      */
