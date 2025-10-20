@@ -1,5 +1,6 @@
-E001;Sarah;Gerant
+E001;Sarah;Gérant
 E002;Orwell;Serveur
 E003;Lucas;Cuisinier
 E004;Mina;Serveur
 E005;Emma;Cuisinier
+5;orwellc;Serveur
