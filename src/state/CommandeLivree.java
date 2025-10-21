@@ -2,7 +2,7 @@ package state;
 
 import observer.Commande;
 
-class CommandeLivree implements CommandeState {
+public class CommandeLivree implements CommandeState {
     @Override
     public void suivant(Commande commande) {
         commande.setEtat(new CommandePayee());

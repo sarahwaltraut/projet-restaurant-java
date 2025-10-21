@@ -15,6 +15,8 @@ public class Menu {
         System.out.println("Ajouté : " + item);
     }
 
+    
+    
     /**
      * Supprime le premier élément correspondant au nom (exact, sensible à la casse).
      * Retourne true si supprimé, false sinon.
@@ -59,10 +61,11 @@ public class Menu {
         }
         System.out.println("----- Menu -----");
         for (MenuInterface item : items) {
-            System.out.println(item);
+            System.out.println(item.getType() + " | " + item.getNom() + " | " + item.getPrix() + "€");
         }
         System.out.println("----------------");
     }
+
 
     public void afficherParType(String type) {
         boolean any = false;

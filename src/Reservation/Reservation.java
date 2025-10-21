@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 import state.Table;
 
-class Reservation {
+public class Reservation {
     private String nomClient;
     private int nbPersonnes;
     private Table table;

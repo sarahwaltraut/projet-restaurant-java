@@ -1,7 +1,11 @@
 package state;
 
+import java.io.BufferedWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import restaurant.Employe;
 
 public class GestionTables {
     private List<Table> tables;
@@ -21,6 +25,8 @@ public class GestionTables {
         System.out.println("Table " + numero + " ajoutée (" + nbPlaces + " places).");
     }
 
+    	
+    
     public void supprimerTable(int numero) {
         tables.removeIf(t -> t.getNumero() == numero);
         System.out.println("Table " + numero + " supprimée.");
@@ -44,6 +50,14 @@ public class GestionTables {
             System.out.println(t);
         }
     }
+    
+   
+    public void exporterVers(BufferedWriter bw) throws IOException {
+        for (Table t : tables) {
+            bw.write(t.getNumero() + ";" + t.getNbPlaces());
+            bw.newLine();
+        }
+    }
 
     public void afficherParEtat(String etatRecherche) {
         boolean trouve = false;
@@ -60,4 +74,9 @@ public class GestionTables {
             System.out.println("Aucune table avec l’état : " + etatRecherche);
         }
     }
+
+    public List<Table> getTables() {
+        return new ArrayList<>(tables);
+    }
+
 }

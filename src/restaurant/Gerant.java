@@ -2,7 +2,7 @@ package restaurant;
 
 public class Gerant extends Employe {
     public Gerant(String id, String nom) {
-        super(id, nom, "Gérant");
+        super(id, nom, "Gerant");
     }
 
     public void genererRapport() {

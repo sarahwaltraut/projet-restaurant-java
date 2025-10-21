@@ -1,0 +1,4 @@
+Dessert; gauffre;4.0
+Entree;pastels;5.0
+Dessert;chocolat;45.0
+Plat; eru;52.0

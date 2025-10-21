@@ -37,6 +37,8 @@ public class Table {
         this.commande = commande;
     }
 
+    
+    
     // Actions déléguées à l’état
     public void occuper() { etat.occuper(this); }
     public void liberer() { etat.liberer(this); }
